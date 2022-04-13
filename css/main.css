@@ -1,9 +1,14 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+img {
+  width: 100%;
 }
 
 body {
@@ -104,4 +109,14 @@ section div {
   border-radius: 1em 0 0 1em;
   background-color: rgba(0,0,0,.1)
   padding: .5em;
+}
+
+section div img {
+  width: 100%
+}
+
+section strong {
+  font-style: italic;
+  font-size: 1.125rem;
+  font-weight: normal;
 }
