@@ -95,4 +95,13 @@ section li > img {
   grid-column: 1 / -1;
 }
 
-section div
+section div {
+  grid-area: top;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+  border-radius: 1em 0 0 1em;
+  background-color: rgba(0,0,0,.1)
+  padding: .5em;
+}
