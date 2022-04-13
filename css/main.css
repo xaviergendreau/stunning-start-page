@@ -73,4 +73,26 @@ section ul {
 
 section li {
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "top"
+    "middle"
+    "bottom";
+  background-color: #ccc;
+  border: 2px solid #afafaf;
+  border-radius: 6px;
 }
+
+section li h3 {
+  grid-area: bottom;
+  z-index: 1;
+  text-align: center;
+  background-color: #afafaf;
+}
+
+section li > img {
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+}
+
+section div
